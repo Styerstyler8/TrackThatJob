@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@drawable/bgitemdoes"
+    android:orientation="horizontal"
+    android:layout_marginBottom="20dp"
+    android:layout_height="200dp" >
+
+    <LinearLayout
+        android:layout_width="198dp"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="0dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/titledoes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="19dp"
+            android:text="Buy whiskas"
+            android:textColor="#000C5D"
+            android:textSize="22sp" />
+
+        <TextView
+            android:id="@+id/descdoes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="Nearly market go"
+            android:textColor="#000C5D"
+            android:textSize="22sp" />
+
+        <TextView
+            android:id="@+id/locationdoes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="Nearly market good to"
+            android:textColor="#000C5D"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/dateRem"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="Nearly market good to"
+            android:textColor="#000C5D"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/tagsDoes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="Nearly market good to"
+            android:textColor="#ADADAD"
+            android:textSize="16sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp">
+
+        <TextView
+            android:id="@+id/datedoes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="Tomorrow"
+            android:textColor="#000000"
+            android:textSize="18sp" />
+
+    </LinearLayout>
+</LinearLayout>
